@@ -7,8 +7,6 @@ const sub=<ol>
   <li>ASP</li>
 </ol>
 function App() {
-  
-
   return (
     <>
       <h1>Hello i am {age} year old!!!! my name {name}</h1>
