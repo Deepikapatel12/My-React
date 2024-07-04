@@ -1,6 +1,5 @@
 
 function App() {
-  
   return (
     <>
       <h1>Application form</h1>
