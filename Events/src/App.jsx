@@ -1,35 +1,59 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+//======== on click events function======
 
-function App() {
-  const [count, setCount] = useState(0)
+const App=()=>{
+  // without parameter
+  const display=()=>{
+    alert("WEllcome to cybrom")
+  }
 
-  return (
+  // with parameter
+  const myname=(fnm, snm)=>{
+    alert("My Name "+fnm + " "+ snm);
+  }
+
+  const myAdd=(n1, n2)=>{
+    alert(n1+n2);
+  }
+
+  // event object================
+const myName=(nm, e)=>{
+  alert("My Name : "+ nm  + "Type :" +e.type)
+}
+
+const myDisplay=(a)=>{
+  alert("Welcome "+a.target.name + " " + a.target.value + " " + a.target.type)
+}
+
+
+const handleClick=(c)=>{
+let name=c.target.name;
+let val=c.target.value;
+alert("Name :" + name + " value : "+ val);
+}
+
+  return(
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+   <h1>Hello This Is React Class </h1>
+   <button  onClick={display}>click here</button>
+   <br/><br/>
+   {/* with parameter */}
+   <button  onClick={()=>{myname("Depika", "Patel")}}>click here</button>
+   <br/><br/>
+   <button  onClick={()=>{myAdd(100,300)}}>click here</button>
+<br/><br/>
+{/* event object is e */}
+   <button  onClick={(e)=>{myName("Deepika", e)}}>click here</button>
+<br/>
+<br/>
+   <button  onClick={(e)=>{myName("Deepika", e)}}>click here</button>
+<br/><br/>
+   <button name="btn1" value="my btn" onClick={myDisplay}>click here</button>
+<br/><br/>
+   <input type="text" name="city" value="bhopal" onClick={handleClick} />
+
+
+
     </>
   )
 }
-
-export default App
+export default App;
