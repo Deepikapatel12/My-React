@@ -1,0 +1,35 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "rollno": 121,
+      "name": "Deepu",
+      "city": "indore",
+      "fees": 60000
+    },
+    {
+      "id": "2",
+      "rollno": 122,
+      "name": "Deepu",
+      "city": "indore",
+      "fees": 60000
+    },
+    {
+      "id": "3",
+      "rollno": 123,
+      "name": "Deepu",
+      "city": "indore",
+      "fees": 60000
+    },
+    {
+      "id": "f85e"
+    },
+    {
+      "id": "8436",
+      "rollno": "4",
+      "name": "shivani",
+      "city": "sandiya",
+      "fees": "5643"
+    }
+  ]
+}
