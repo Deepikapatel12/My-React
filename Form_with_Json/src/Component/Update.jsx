@@ -1,7 +1,7 @@
 const Update=()=>{
     return(
         <>
-
+<h1>This is Update Pagwe</h1>
         </>
     )
 }
