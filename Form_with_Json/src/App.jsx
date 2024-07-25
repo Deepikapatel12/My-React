@@ -8,6 +8,7 @@ import Display from "./Component/Display";
 import Search from "./Component/Search";
 import Update from "./Component/Update";
 import Contact from "./Component/Contact";
+import EditData from "./Component/EditData";
 const App=()=>{
   return(
     <>
@@ -21,6 +22,9 @@ const App=()=>{
     <Route path="search" element={<Search/>}/>
     <Route path="update" element={<Update/>}/>
     <Route path="contact" element={<Contact/>}/>
+
+    {/* flage value or variable :ish se mention krte h */}
+    <Route path="myedit/:id" element={<EditData/>}/>
 
     </Route>
   </Routes>

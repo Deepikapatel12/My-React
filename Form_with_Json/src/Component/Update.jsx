@@ -3,8 +3,10 @@ import axios from "axios";
 import  Table from "react-bootstrap/Table";
 import edtimg from "../images/edit.png";
 import delimg from "../images/delet.png";
+import { useNavigate } from "react-router-dom";
 const Update=()=>{
     const [mydata, setMydata]=useState([]);
+
 
     const loadData=()=>{
         let url="http://localhost:3000/student";
@@ -22,6 +24,10 @@ const Update=()=>{
             loadData();
         })
     }
+const myEdit=(myid)=>{
+    myNav()
+}
+
     const ans=mydata.map((key)=>{
         return(
             <>
