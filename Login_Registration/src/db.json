@@ -1,0 +1,9 @@
+{
+    "customer":[
+        {
+            "id":1,
+            "name":"deepu",
+            "city":"indore"
+        }
+    ]
+}
