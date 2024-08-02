@@ -1,0 +1,11 @@
+{
+    "customer":[
+        {
+            "id":1,
+            "name":"deepu",
+            "email":"deepu123@gmail.com",
+            "password":"d123",
+            "userid":"Deep"
+        }
+    ]
+}
