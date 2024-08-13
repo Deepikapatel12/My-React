@@ -15,6 +15,7 @@ const App=()=>{
     <tr>
       <td>{sno}</td>
       <td>{key.work}</td>
+      <td><button onClick={()=>{}}>Delete</button></td>
     </tr>
   </>
  )
@@ -30,6 +31,7 @@ const App=()=>{
         <tr>
           <th>Sno</th>
           <th>Your Task</th>
+          <th></th>
         </tr>
         {ans}
       </table>
