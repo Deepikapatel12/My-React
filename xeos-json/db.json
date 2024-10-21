@@ -1,0 +1,29 @@
+{
+    "student":[
+        {
+            "id":1,
+            "rollno":121,
+            "name":"Deepika",
+            "city":"Indore"
+        },
+        {
+            "id":2,
+            "rollno":122,
+            "name":"Deepika",
+            "city":"Indore"
+        },
+        {
+            "id":3,
+            "rollno":123,
+            "name":"Deepika",
+            "city":"Indore"
+        },
+        {
+            "id":4,
+            "rollno":124,
+            "name":"Deepika",
+            "city":"Indore"
+        }
+
+    ]
+}
